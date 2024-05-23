@@ -2,6 +2,7 @@ import React from 'react'
 import heroiamge from '../assets/profile.jpg'
 import {TypeAnimation} from "react-type-animation";
 import NavBar from './Navbar'
+import Skills from './Skills'
 
 const Hero = () => {
   return (
@@ -48,9 +49,9 @@ const Hero = () => {
                     </a>
 
                 </div>    
-            </div>
-
+            </div>      
         </div>
+        <Skills/>
     </>
          
 
