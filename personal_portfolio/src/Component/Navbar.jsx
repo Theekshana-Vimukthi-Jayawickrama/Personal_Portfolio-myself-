@@ -28,9 +28,6 @@ const Navbar = () => {
                 <li className='p-2'><Link to={``} >Home</Link></li>
                 <li className='p-2'><Link to={``} >About</Link></li>
                 <li className='p-2'><Link to={``} >Services</Link></li>
-                <li className='p-2'><Link to={`skills`} >Skils</Link></li>
-                <li className='p-2'><Link to={``} >Portfolio</Link></li>
-                <li className='p-2'><Link to={``} >Contact</Link></li>
             </ul>
         </div>
 

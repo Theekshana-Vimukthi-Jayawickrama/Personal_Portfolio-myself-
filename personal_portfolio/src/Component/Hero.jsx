@@ -3,6 +3,10 @@ import heroiamge from '../assets/profile.jpg'
 import {TypeAnimation} from "react-type-animation";
 import NavBar from './Navbar'
 import Skills from './Skills'
+import About from '../Component/About'
+import Works from './Works';
+import Contact from './Contact'
+import Footer from './Footer';
 
 const Hero = () => {
   return (
@@ -52,6 +56,10 @@ const Hero = () => {
             </div>      
         </div>
         <Skills/>
+        <About/>
+        <Works/>
+        <Contact/>
+        <Footer/>
     </>
          
 
